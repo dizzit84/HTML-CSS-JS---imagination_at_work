@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="pl">
+    <head>
+        <title>listy listy</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatibile" content="IE=edge,chrome=1" />
+        <link rel="stylesheet" href="arkuszcss.css" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css"/>
+        <link rel="stylesheet" href="fontello2/css/fontello.css" type="text/css"/>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="jquery.scrollTo.min.js"></script>
+        <script>
+            jQuery(function($)
+            {
+            $.scrollTo(0);
+            $('#link1').click(function()
+                {
+                $.scrollTo($('#lotnictwo'),500); 
+                }
+            ); 
+            $('#link2').click(function()
+                {
+                $.scrollTo($('#historia'),500); 
+                }
+            );
+            $('#link3').click(function()
+                {
+                $.scrollTo($('#samolot'),500); 
+                }
+            );
+            $('#link4').click(function()
+                {
+                $.scrollTo($('#odrzut'),500); 
+                }
+            );
+            $('#link5').click(function()
+                {
+                $.scrollTo($('#smiglo'),500); 
+                }
+            );
+            $('#link6').click(function()
+                {
+                $.scrollTo($('#kosmos'),500); 
+                }
+            );
+            $('#link7').click(function()
+                {
+                $.scrollTo($('#problemy'),500); 
+                }
+            );
+            $('.scrollup').click(function()
+                {
+                $.scrollTo($('body'),1000); 
+                }
+            );
+            }
+            );
+            
+            //pokaz guzik
+            $(window).scroll(function()
+            {
+                if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+                else $('.scrollup').fadeOut();
+            }
+            );
+    
+    
+        </script>
+        
+            
+        
+        
+        
+    </head>
+    <body>
+        
+        
+        <div id="logo"><img src="img\GE.png" alt="logoGE" > Imagination at work</div>
+        
+        <br/>
+        <br/>
+        
+        <div id="container">
+            
+            <a href="#" class="scrollup"></a>
+            
+        <a href="http:\\youtube.com" target="_blank" style="text-decoration : none; color : #FFFFFF;"><div class="przycisk"><i class="icon-users"></i></div></a>
+        <a href="http:\\youtube.com" target="_blank" style="text-decoration : none; color : #FFFFFF;"><div class="przycisk"><i class="icon-mail-alt"></i></div></a>
+        <div style="clear:both"></div>
+        <a href="http:\\youtube.com" target="_blank" style="text-decoration : none; color : #FFFFFF;"><div class="przycisk"><i class="icon-globe-inv"></i></div></a>
+        <a href="http:\\youtube.com" target="_blank" style="text-decoration : none; color : #FFFFFF;"><div class="przycisk"><i class="icon-linkedin"></i></div></a>        
+        </div>
+        
+        <br/>
+        
+        <div id="conteiner2">
+            <div id="spis">
+                <ol>
+                    <li>Wstęp
+                        <ul>
+                            <li><a id="link1" href="#" style="text-decoration: none; color: black">Lotnictwo</a></li> 
+                            <li><a id="link2" href="#" style="text-decoration: none; color: black">Historia samolotów</a></li>  
+                        </ul>                            
+                    </li>
+                    
+                    <li>Definicja i typy
+                        <ul>
+                            <li><a id="link3" href="#" style="text-decoration: none; color: black">Definicja</a></li>
+                            <li><a id="link4" href="#" style="text-decoration: none; color: black">Samoloty odrzutowe</a></li>                           
+                            <li><a id="link5" href="#" style="text-decoration: none; color: black">Samoloty śmigłowe</a></li>
+                        </ul>                    
+                    </li>
+                    
+                    <li>Ciekawostki
+                        <ul>
+                            <li>wyżej, szybciej
+                                <ul>
+                                    <li><a id="link6" href="#" style="text-decoration: none; color: black">Loty w kosmos</a></li>
+                                </ul>
+                            </li>
+                            <li>ograniczenia
+                                <ul>
+                                    <li><a id="link7" href="#" style="text-decoration: none; color: black">Problemy</a></li>
+                                    <li>(blank)</li>
+                                </ul>
+                            </li>                                                            
+                        </ul>                      
+                    </li>
+                    
+                    <li>Dzięki za uwagę</li>
+                </ol>                
+            </div> 
+            
+            <!-- stajd numer1********************************************* -->
+            <div class="slajd">
+                <h1 id="lotnictwo">Lotnictwo <a href="#spis" style="text-decoration: none; color: black"><i class="icon-plane"></i></a></h1>
+                <br/><br/>
+                <h2>ogół zagadnień związanych z wszelkiego rodzaju statkami
+                    powietrznymi (samoloty, śmigłowce, szybowce, balony i drony).
+                    Lotnictwo dzieli się na cywilne (transportowe, sportowe,
+                    gospodarczo-usługowe) i wojskowe[1].
+                    W węższym znaczeniu lotnictwo to nazwa gałęzi gospodarki,
+                    w tym przemysłu (np. technologie wytwarzania materiałów,
+                    systemów czy oprogramowania stosowanego), architektury
+                    obiektów przemysłowych (np. lotniska i wielkie kompleksy
+                    portów lotniczych), transportu (ruch lotniczy, w tym
+                    pasażerski, i lotnictwo ogólne), handlu (np. dostawy dóbr i
+                    usługi pocztowo-kurierskie) oraz usług społecznych (np.
+                    samoloty-kliniki okulistyczne) z użyciem statków powietrznych
+                    (głównie samolotów).W ujęciu wojskowym lotnictwo to element
+                    powietrzny sił zbrojnych, zwany wojskami lotniczymi, którego
+                    podstawową bronią są różnego rodzaju statki powietrzne.</h2>
+            </div> 
+            <!-- stajd numer2********************************************* -->
+            <div class="slajd">
+                <h1 id="historia">Historia samolotu <a href="#spis" style="text-decoration: none; color: black"><i class="icon-plane"></i></a></h1>
+                <br/><br/>
+                <h2>Ludzie od niepamiętnych czasów marzyli o lataniu. 
+                    Na podstawie obserwacji ptaków Leonardo da Vinci (1452–1519)
+                    zaprojektował pierwszą lotnię. Pionierzy latania, tacy jak
+                    Niemiec Otto Lilienthal (1848–1896), udowodnili, 
+                    że szybowiec może wynieść człowieka w powietrze.
+                    Pod koniec XIX w. wielu wynalazców próbowało skonstruować
+                    samolot, czyli szybowiec z napędem. Udało się to dwóm
+                    Amerykanom braciom Orville’owi (1871–1948) i Wilburowi
+                    (1867–1917) Wrightom, którzy zbudowali samolot poruszany
+                    silnikiem spalinowym i w 1903 roku dokonali pierwszego
+                    kontrolowanego przelotu[1]. Trwał on 12 sekund. Tego samego
+                    dnia bracia dokonali kolejnych trzech przelotów, w których
+                    samolot przeleciał 270 metrów, a najdłuższy lot
+                    trwał 59 sekund. Ten rok uznaje się za początek
+                    ery samolotów. Bracia Wright nie byli jednak pierwszymi,
+                    którzy zasłużyli się na polu budowy samolotów. Pierwszym
+                    człowiekiem, o którym można powiedzieć, że podróżował na
+                    pokładzie samolotu, był Clément Ader (1841–1925), który
+                    wzniósł się maszyną napędzaną silnikiem parowym.</h2>
+            </div>
+            <!-- stajd numer3********************************************* -->
+            <div class="slajd">
+                <h1 id="samolot">Samolot <a href="#spis" style="text-decoration: none; color: black"><i class="icon-plane"></i></a></h1>
+                <br/><br/>
+                <h2>załogowy bądź bezzałogowy statek powietrzny cięższy od
+                    powietrza (aerodyna), utrzymujący się w powietrzu dzięki
+                    wytwarzanej sile nośnej za pomocą nieruchomych, w danych
+                    warunkach względem statku, skrzydeł. Ciąg potrzebny do
+                    utrzymania prędkości w locie poziomym wytwarzany jest przez
+                    jeden lub więcej silników.</h2>
+            </div>
+            <!-- stajd numer4********************************************* -->
+            <div class="slajd">
+                <h1 id="odrzut">Samoloty odrzutowe <a href="#spis" style="text-decoration: none; color: black"><i class="icon-plane"></i></a></h1>
+                <br/><br/>
+                <h2>w którym ciąg wytwarzany jest bezpośrednio w silniku;
+                    zwykle stosuje się silniki turboodrzutowe, silniki
+                    rakietowe wykorzystywane są głównie w konstrukcjach
+                    eksperymentalnych lub jako napęd pomocniczy przy starcie.</h2>
+                
+            </div>
+            <!-- stajd numer5********************************************* -->
+            <div class="slajd">
+                <h1 id="smiglo"> Samoloty śmigłowe <a href="#spis" style="text-decoration: none; color: black"><i class="icon-plane"></i></a></h1>
+                <br/><br/>
+                <h2>w którym moment obrotowy silnika zamieniany jest na
+                    ciąg za pomocą śmigła; do takiego napędu stosuje się
+                    silniki tłokowe lub turbinowe</h2>
+            </div>
+            
+                        
+            <!-- stajd numer6********************************************* -->
+            <div class="slajd">
+                <h1 id="kosmos">Loty w kosmos <a href="#spis" style="text-decoration: none; color: black"><i class="icon-plane"></i></a></h1>
+                <br/><br/>
+                <h2>Lotnictwo na ogół nie obejmuje zagadnień związanych z lotami
+                    w kosmos, którymi zajmuje się astronautyka. Istnieją jednak
+                    lub zaproponowane zostały systemy, gdzie lot orbitalny lub
+                    suborbitalny, czy nawet opuszczenie strefy grawitacji Ziemi
+                    lotem międzyplanetarnym, jest do wykonania pojazdem
+                    kosmicznym startującym ze specjalnie przystosowanego
+                    samolotu wzniesionego na wysoki pułap lotu, gdzie
+                    energetyczny koszt rozpoczęcia lotu kosmicznego, i (co za
+                    tym idzie) potrzebna masa pojazdu z potrzebnym paliwem jest
+                    znacznie zmniejszona w porównaniu ze startem za pomocą
+                    wielkiej rakiety odpalonej z powierzchni.</h2>
+            </div>
+            <!-- stajd numer7********************************************* -->
+            <div class="slajd">
+                <h1 id="problemy">Problemy lotnictwa <a href="#spis" style="text-decoration: none; color: black"><i class="icon-plane"></i></a></h1>
+                <br/><br/>
+                <h2>Dużym zagrożeniem dla wielu klas statków powietrznych są
+                    kolizje z ptakami. Wessanie zwierzęcia do turbiny silnika 
+                    odrzutowego przy zderzeniu może spowodować oderwanie się
+                    łopatek turbiny, utratę prawidłowego wyważenia układu
+                    sprężarki dośrodkowej i turbiny, a nawet eksplozję całego
+                    silnika. Na ogół kolizja z ptakiem powoduje spadek mocy,
+                    który może prowadzić do przeciągnięcia, co za tym idzie
+                    gwałtownego przepadania skutkującego zderzeniem z ziemią.
+                    Natomiast samo uderzenie dużego ptaka w powierzchnie nośne
+                    czy kadłub samolotu potrafi poważnie uszkodzić lecący z dużą
+                    prędkością samolot, nawet do punktu katastrofalnego i
+                    uniemożliwienia dalszego lotu[2]. Zderzenia z ptakami są
+                    niewielkim zagrożeniem dla samolotów lekkich, gdyż na ogół
+                    nie powodują znacznych uszkodzeń płatowca i układu napędowego.
+                    Do zminimalizowania tego zagrożenia, poprzez odstraszanie,
+                    stosuje się ptaki drapieżne[3].</h2>
+            </div>
+            
+            
+        </div>
+        
+    <div id="stopka"></div>
+    </body>
+</html>
